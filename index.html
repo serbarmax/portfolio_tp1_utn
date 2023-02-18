@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo-sitio-chico.ico" type="image/x-icon">
     <script src="js/app.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <title>Mi Portfolio | Bienvenidos!</title>
@@ -15,424 +16,281 @@
 <!--                      MAIN HEADER                    -->
 <!-- *************************************************** -->
 
-    <header class="header">
-        <nav id="navbar">
-            <div class="contenedorHero">
-                <div class="logo">
-                    <a href="#mainheader">
-                        <img src="img/logo-sitio-chico.png" alt="">
-                    </a>
-                    <div class="logo">
-                        MAX DESIGN
-                    </div>
-                </div>
-                <ul>
-                    <li><a href="#mainheader"  class="colorTexto">HOME</a>
-                    <li><a href="#servicios"   class="colorTexto">SERVICIOS</a>
-                    <li><a href="#portfolio"   class="colorTexto">PORTFOLIO</a>
-                    <li><a href="#experiencia" class="colorTexto">EXPERIENCIA</a>
-                    <li><a href="#testimonios" class="colorTexto">TESTIMONIOS</a>
-                    <li><a href="#clientes"    class="colorTexto">CLIENTES</a>
-                    <li><a href="#contacto"    class="colorTexto">CONTACTO</a>
-                </ul>
-                <div class="btnDownload"><a href="#" class="link">DESCARGAR CV</a></div>
-                <i class="bi bi-list"></i>
+<nav class="navbar">
+    <div class="logoyTexto">
+        <img src="img/logo-sitio-chico.png" alt="MD ">
+        <div class="logo">
+            MAX DESIGN
+        </div>
+    </div>
+    <ul>
+        <li><a href="#mainheader"  class="colorTexto">HOME</a>
+        <li><a href="#servicios"   class="colorTexto">SERVICIOS</a>
+        <li><a href="#portfolio"   class="colorTexto">PORTFOLIO</a>
+        <li><a href="#experiencia" class="colorTexto">EXPERIENCIA</a>
+        <li><a href="#testimonios" class="colorTexto">TESTIMONIOS</a>
+            
+        <li><a href="#contacto"    class="colorTexto">CONTACTO</a>
+    </ul>
+    <button class="btnDownload"><a href="#" class="link">DESCARGAR CV</a></button>
+    <i class="bi bi-list"></i>
+</nav>
+
+<div class="contenedorHero">
+    <div class="showcaseRowTitle">
+        <p class="hello">Hola, <span class="hello2 txt-red">soy</span></p>
+        <p class="texto-grande">Max Barreira</p>
+        <p class="designer">Diseñador y Desarrollador Web</p>
+        <p class="textoNormal marginR20">Desarrollo de aplicaciones y sitios webs a medida, contáctenos para una visita a su negocio o empresa, efectuaremos un presupuesto sin cargo.</p>
+        <p class="sigueme">SIGUEME EN </p>
+        <div class="boximagenes">
+            <i class="bi bi-facebook icon-cuadro"></i>
+            <i class="bi bi-twitter icon-cuadro"></i>
+            <i class="bi bi-linkedin icon-cuadro"></i>
+            <i class="bi bi-youtube icon-cuadro"></i>
+        </div>
+        <div class="boxpuntajes">
+            <div class="puntajes">
+                <p class="puntaje">20+</p>
+                <p class="textoNormal">AÑOS EXPERIENCIA</p>
             </div>
-        </nav>
-        <div id="showcase">
-            <div class="container">
-                <div class="showcaseRow">
-                    <div class="showcaseRowTitle">
-                        <p class="hello">Hola, <span class="hello2 txt-red">soy</span></p>
-                        <p class="texto-grande">Max Barreira</p>
-                        <p class="designer">Desarrollo y Diseño Web</p>
-                        <p class="textoNormal">Desarrollo de aplicaciones y sitios webs a medida, contáctenos para una visita a su negocio o empresa, efectuaremos un presupuestamos sin cargo.</p>
-                        <p class="sigueme">SIGUEME EN </p>
-                        <div class="boximagenes">
-                            <i class="bi bi-facebook icon-cuadro"></i>
-                            <i class="bi bi-twitter icon-cuadro"></i>
-                            <i class="bi bi-linkedin icon-cuadro"></i>
-                            <i class="bi bi-youtube icon-cuadro"></i>
-                        </div>
-                        <div class="boxpuntajes">
-                            <div class="puntajes">
-                                <p class="puntaje">20+</p>
-                                <p class="textoNormal">AÑOS EXPERIENCIA</p>
-                            </div>
-                            <div class="puntajes">
-                                <p class="puntaje">700+</p>
-                                <p class="textoNormal">CLIENTES GLOBALES</p>
-                            </div>
-                            <div class="puntajes">
-                                <p class="puntaje">30+</p>
-                                <p class="textoNormal">PREMIOS OBTENIDOS</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="showcase-row-img">
-                        <img src="img/fotomia.png" alt="" class="fotomodelo">
-                    </div>
-                </div>
+            <div class="puntajes">
+                <p class="puntaje">700+</p>
+                <p class="textoNormal">CLIENTES GLOBALES</p>
+            </div>
+            <div class="puntajes">
+                <p class="puntaje">30+</p>
+                <p class="textoNormal">PREMIOS OBTENIDOS</p>
             </div>
         </div>
-    </header>
+    </div>
+    <div class="showcaseImg">
+        <img src="img/fotomia.png" alt=""  class="fotomodelo">
+    </div>
+</div>
+
 
 <!-- *************************************************** -->
 <!--                       SERVICIOS                    -->
 <!-- *************************************************** -->
-    <section class="mainServices">
-        <a name="servicios"></a>
-        <p class="servicesTitulo txt-red">MIS SERVICIOS</p>
-        <p class="textogrande">Sectores de Actividad</p>
-        <div class="cajasServicios">
-            <div class="cajaServiciosBox">
-                <i class="bi bi-cast pc txt-red"></i>
-                <p class="serviciosTitulo">Website Design</p>
-                <p class="textoNormal">Diseño y desarrollo de aplicaciones y sitios webs</p>
-            </div>
-            <div class="cajaServiciosBox">
-                <i class="bi bi-window-desktop pc txt-red"></i>
-                <p class="serviciosTitulo">Web Design</p>
-                <p class="textoNormal">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, ratione!</p>
-            </div>
-            <div class="cajaServiciosBox">
-                <i class="bi bi-display pc txt-red"></i>
-                <p class="serviciosTitulo">Web Design</p>
-                <p class="textoNormal">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, ratione!</p>
-            </div>
-            <div class="cajaServiciosBox">
-                <i class="bi bi-display pc txt-red"></i>
-                <p class="serviciosTitulo">Web Design</p>
-                <p class="textoNormal">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, ratione!</p>
-            </div>
-            <div class="cajaServiciosBox">
-                <i class="bi bi-display pc txt-red"></i>
-                <p class="serviciosTitulo">Web Design</p>
-                <p class="textoNormal">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, ratione!</p>
-            </div>
-            <div class="cajaServiciosBox">
-                <i class="bi bi-display pc txt-red"></i>
-                <p class="serviciosTitulo">Web Design</p>
-                <p class="textoNormal">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, ratione!</p>
-            </div>
- 
+<section class="mainServices">
+    <a name="servicios"></a>
+    <p class="servicesTitulo txt-red">MIS SERVICIOS</p>
+    <p class="textogrande">Sectores de Actividad</p>
+    <div class="cajasServicios">
+        <div class="cajaServiciosBox">
+            <i class="bi bi-cast pc txt-red"></i>
+            <p class="serviciosTitulo">Website Design</p>
+            <p class="textoNormal">Nuestro enfoque para el diseño de sitios web es crear un sitio web que fortalezca la marca de su empresa </p>
         </div>
-    </section>
+        <div class="cajaServiciosBox">
+            <i class="bi bi-window-desktop pc txt-red"></i>
+            <p class="serviciosTitulo">WordPress websites</p>
+            <p class="textoNormal">
+                Administre su sitio web utilizando el sistema de administración de contenido más popular de la web.</p>
+        </div>
+        <div class="cajaServiciosBox">
+            <i class="bi bi-display pc txt-red"></i>
+            <p class="serviciosTitulo">Performance & testing</p>
+            <p class="textoNormal">Haga que su sitio web sea rápido, fácil de encontrar y llegue a la audiencia más amplia posible.</p>
+        </div>
+        <div class="cajaServiciosBox">
+            <i class="bi bi-cast pc txt-red"></i>
+            <p class="serviciosTitulo">Ecommerce</p>
+            <p class="textoNormal">Integración de plataformas de comercio electrónico, pasarelas de pago, plantillas de productos personalizados y más.</p>
+        </div>
+        <div class="cajaServiciosBox">
+            <i class="bi bi-window-desktop pc txt-red"></i>
+            <p class="serviciosTitulo">Analytics</p>
+            <p class="textoNormal">
+                Obtenga información sobre quién navega por su sitio para que pueda tomar decisiones comerciales más inteligentes.</p>
+        </div>
+        <div class="cajaServiciosBox">
+            <i class="bi bi-display pc txt-red"></i>
+            <p class="serviciosTitulo">Mentor</p>
+            <p class="textoNormal">Realmente me preocupo por las personas y me encanta ayudar a otros diseñadores a trabajar en su oficio.</p>
+        </div>
+
+    </div>
+</section>
 
 <!-- *************************************************** -->
 <!--                   ACTIVIDAD RECIENTE                -->
 <!-- *************************************************** -->
 
-    <section CLASS="portfolio">
-        <a name="portfolio"></a>
-        <p class="portfolioTxtRed">ULTIMOS DISEÑOS</p>
-        <p class="portfolioActividadReciente">Actividad Reciente</p>
-        <div class="portfolioBox">
-            <div class="workImgBox">
-                <img src="img/work1.jpg" alt="" class="work-img">
-            </div>
-            <div class="workImgBox">
-                <img src="img/work2.jpg" alt="" class="work-img">
-            </div>
-            <div class="workImgBox">
-                <img src="img/work3.jpg" alt="" class="work-img">
-            </div>
-            <div class="workImgBox">
-                <img src="img/work4.jpg" alt="" class="work-img">
-            </div>
-            <div class="workImgBox">
-                <img src="img/work5.jpg" alt="" class="work-img">
-            </div>
-            <div class="workImgBox">
-                <img src="img/work6.jpg" alt="" class="work-img">
-            </div>
-        </div>
-        <button class="portfolioBtnDark">Ver todos los trabajos <i class="bi bi-arrow-right-short flecha"></i></button>
-    </section>
+<section CLASS="portfolio">
+<a name="portfolio"></a>
+<p class="portfolioTxtRed">ULTIMOS DISEÑOS</p>
+<p class="portfolioActividadReciente">Actividad Reciente</p>
+<div class="portfolioBox">
+    <div class="workImgBox">
+        <img src="img/work1.jpg" alt="" class="work-img">
+    </div>
+    <div class="workImgBox">
+        <img src="img/work2.jpg" alt="" class="work-img">
+    </div>
+    <div class="workImgBox">
+        <img src="img/work3.jpg" alt="" class="work-img">
+    </div>
+    <div class="workImgBox">
+        <img src="img/work4.jpg" alt="" class="work-img">
+    </div>
+    <div class="workImgBox">
+        <img src="img/work5.jpg" alt="" class="work-img">
+    </div>
+    <div class="workImgBox">
+        <img src="img/work6.jpg" alt="" class="work-img">
+    </div>
+</div>
+<div class="portfolioBtnDark"><div>Ver todos los trabajos</div><div><i class="bi bi-arrow-right-short flecha"></i></div></div>
+</section>
 
 <!-- *************************************************** -->
 <!--                       EXPERIENCIA                   -->
 <!-- *************************************************** -->
 
-    <section class="mainExperiencia">
-        <a name="experiencia"></a>
-        <div class="contenedorTitulo">
-            <p class="subtituloExperiencia">AÑOS DE EXPERIENCIA</p>
-            <p class="textogrande">Resumen</p> 
-        </div>
-        <div class="experienciaContenedor">
-            <div class="experienciaContenedorIzq">
-                <div class="experienciaTitulo3">
-                    <p class="experienciaTxtMedio">Experiencia Laboral</p>
-                    <p class="experienciaNumeros">2010 - 2022</p>
-                </div>
-                <div class="expCajaLineaVerticalIzq">
-                    <div class="cajaExperienciaBox marginAbajo" >
-                        <p class="experiencia-titulo">Banchelor Of Arts Website Design</p>
-                        <p class="academia">Unversity of Oxford (<spam class="otherFont">2010-2019</spam>)</p>
-                        <p class="experienciaTextoNormal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, omnis?</p>
-                    </div>
-                </div>
-                <div class="expCajaLineaVerticalIzq">
-                    <div class="cajaExperienciaBox marginArribaAbajo">
-                        <p class="experiencia-titulo">Banchelor Of Arts Website Design</p>
-                        <p class="academia">Unversity of Oxford (<spam class="otherFont">2010-2019</spam>)</p>
-                        <p class="experienciaTextoNormal">Lorem</p>
-                    </div>
-                </div>
-                <div class="expCajaLineaVerticalIzq">
-                    <div class="cajaExperienciaBox marginArriba">
-                        <p class="experiencia-titulo">Banchelor Of Arts Website Design</p>
-                        <p class="academia">Unversity of Oxford (<spam class="otherFont">2010-2019</spam>)</p>
-                        <p class="experienciaTextoNormal">Lorem</p>
-                    </div>
+<section class="mainExperiencia">
+    <a name="experiencia"></a>
+    <div class="contenedorTitulo">
+        <p class="subtituloExperiencia">AÑOS DE EXPERIENCIA</p>
+        <p class="textogrande">Resumen</p> 
+    </div>
+    <div class="experienciaContenedor">
+        <div class="experienciaContenedorIzq">
+            <div class="experienciaTitulo3">
+                <p class="experienciaTxtMedio">Experiencia Laboral</p>
+                <p class="experienciaNumeros">2010 - 2022</p>
+            </div>
+            <div class="expCajaLineaVertical">
+                <div class="cajaExperienciaBox marginAbajo" >
+                    <p class="experiencia-titulo">Programador Web</p>
+                    <p class="academia">Banco Santander (<spam class="otherFont">2010-2019</spam>)</p><br>
+                    <p class="textoNormal">Escribí el código una página web con la capacidad de recibir a más de un millón de usuarios diariamente.</p>
                 </div>
             </div>
-
-            <div class="experienciaContenedorDer">
-                <div class="experienciaTitulo3">
-                    <p class="experienciaTxtMedio">Calidad en Educación</p>
-                    <p class="experienciaNumeros">2010 - 2022</p>
+            <div class="expCajaLineaVertical">
+                <div class="cajaExperienciaBox marginArribaAbajo">
+                    <p class="experiencia-titulo">Programador Web</p>
+                    <p class="academia">Banco Hipotecario (<spam class="otherFont">2010-2019</spam>)</p><br>
+                    <p class="textoNormal">Responsable de crear un comparador de tarjetas de crédito que elevó las ventas de producto en un <spam class="otherFont">15</spam>%</p>
                 </div>
-                <div class="expCajaLineaVerticalDer">
-                    <div class="cajaExperienciaBox marginAbajo">
-                        <p class="experiencia-titulo">Banchelor Of Arts Website Design</p>
-                        <p class="academia">Unversity of Oxford (<spam class="otherFont">2010-2019</spam>)</p>
-                        <p class="experienciaTextoNormal">Lorem</p>
-                    </div>
-                </div>
-                <div class="expCajaLineaVerticalDer">
-                    <div class="cajaExperienciaBox  marginArribaAbajo">
-                        <p class="experiencia-titulo">Banchelor Of Arts Website Design</p>
-                        <p class="academia">Unversity of Oxford (<spam class="otherFont">2010-2019</spam>)</p>
-                        <p class="experienciaTextoNormal">Lorem</p>
-                    </div>
-                </div>
-                <div class="expCajaLineaVerticalDer">
-                    <div class="cajaExperienciaBox marginArriba">
-                        <p class="experiencia-titulo">Banchelor Of Arts Website Design</p>
-                        <p class="academia">Unversity of Oxford (<spam class="otherFont">2010-2019</spam>)</p>
-                        <p class="experienciaTextoNormal">Lorem</p>
-                    </div>
+            </div>
+            <div class="expCajaLineaVertical">
+                <div class="cajaExperienciaBox marginArriba">
+                    <p class="experiencia-titulo">Programador Web</p>
+                    <p class="academia">Banco Santander(<spam class="otherFont">2010-2019</spam>)</p><br>
+                    <p class="textoNormal">Desarrollé una aplicación bancaria especializada en seguros de auto la cual recibió una calificación de <spam class="otherFont">4.8 estrellas</spam></p>
                 </div>
             </div>
         </div>
 
+        <div class="experienciaContenedorDer">
+            <div class="experienciaTitulo3">
+                <p class="experienciaTxtMedio">Calidad en Educación</p>
+                <p class="experienciaNumeros">2010 - 2022</p>
+            </div>
+            <div class="expCajaLineaVertical">
+                <div class="cajaExperienciaBox marginAbajo">
+                    <p class="experiencia-titulo">Desarrollo Web</p>
+                    <p class="academia">Tecnologías de Desarrollo (<spam class="otherFont">2010-2019</spam>)</p>
+                    <p class="textoNormal">Dominio de PHP, MySQL, HTML5, CSS3 y Javascript. Conocimiento de las bases de datos MySQL, PostgreSQL. Capacidad de liderazgo y trabajo en equipo</p>
+                </div>
+            </div>
+            <div class="expCajaLineaVertical">
+                <div class="cajaExperienciaBox  marginArribaAbajo">
+                    <p class="experiencia-titulo">Banchelor Of Arts Website Design</p>
+                    <p class="academia">Unversity of Oxford (<spam class="otherFont">2010-2019</spam>)</p>
+                    <p class="textoNormal">Desarrollé una aplicación bancaria especializada en seguros de auto la cual recibió una calificación de <spam class="otherFont">4.8 estrellas</spam></p>
+                </div>
+            </div>
+            <div class="expCajaLineaVertical">
+                <div class="cajaExperienciaBox marginArriba">
+                    <p class="experiencia-titulo">Banchelor Of Arts Website Design</p>
+                    <p class="academia">Unversity of Oxford (<spam class="otherFont">2010-2019</spam>)</p>
+                    <p class="textoNormal">Desarrollé una aplicación bancaria especializada en seguros de auto la cual recibió una calificación de <spam class="otherFont">4.8 estrellas</spam></p>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
+
+</section>
 
 <!-- *************************************************** -->
 <!--                       TESTIMONIOS                   -->
 <!-- *************************************************** -->
 
 <a name="testimonios"></a>
-
-    <section class="testimonios">
-        <div class="testimoniosTitulo">
-            <p class="testimoniosTituloReal txt-red">TESTIMONIOS</p>
-            <div class="botonera">
-                <p class="testimoniosSubtitulo">Los clientes dicen</p> 
-                <button class="anterior"  onclick="anterior()"> <i class="bi bi-arrow-left-short" flecha></i></button>
-                <button class="siguiente" onclick="siguiente()"><i class="bi bi-arrow-right-short flecha"></i></button>
-                <div id="valor"></div>
-                <div id="valoractual"></div>
+<section class="testimonios">
+    <div class="testimoniosTitulo">
+        <p class="testimoniosTituloReal txt-red">TESTIMONIOS</p>
+        <div class="botonera">
+            <p class="testimoniosSubtitulo">Los clientes dicen</p> 
+            <button class="anterior"  onclick="anterior()"> <i class="bi bi-arrow-left-short" flecha></i></button>
+            <button class="siguiente" onclick="siguiente()"><i class="bi bi-arrow-right-short flecha"></i></button>
+            <div id="valor"></div>
+            <div id="valoractual"></div>
+        </div>
+    </div>   
+    <div class="testimoniosContenedor">
+        <div class="testimonios-box">
+            <div class="margenAbajo">
+                <i class="bi bi-quote quote"></i>
+                <div class="estrellasContenedor">
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                </div>
             </div>
-
-        </div>   
-        <div class="testimoniosContenedor" id="testimoniosContenedor">
-            <div class="testimonios-box">
-                <i class="bi bi-quote quote"></i>
-                <div class="estrellasContenedor">
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                </div>
-                <p class="textoNormal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, sit aliquid. Quam sint ducimus nobis.
-                </p>
-                <div>
-                    <img src="img/testimonial.jpg" class="testimonios-box-persona" alt="">
-                    <h5 class="testimonios-pesona-txt">
-                        Nombre y Apellido 
-                    </h5>
-                    <p>
-                        Bussines Manager and SEO
-                    </p>
-                </div> 
-            </div> <!-- FIN TESTIMONIOS BOX -->
-            <div class="testimonios-box">
-                <i class="bi bi-quote quote"></i>
-                <div class="estrellasContenedor">
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                </div>
-                <p class="textoNormal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, sit aliquid. Quam sint ducimus nobis.
-                </p>
-                <div>
-                    <img src="img/testimonial.jpg" class="testimonios-box-persona" alt="">
-                    <h5 class="testimonios-pesona-txt">
-                        Nombre y Apellido 
-                    </h5>
-                    <p class="textoNormal" >
-                        Bussines Manager and SEO
-                    </p>
-                </div> 
-            </div> <!-- FIN TESTIMONIOS BOX -->                    
-            <div class="testimonios-box">
-                <i class="bi bi-quote quote"></i>
-                <div class="estrellasContenedor">
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                </div>
-                <p class="textoNormal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, sit aliquid. Quam sint ducimus nobis.
-                </p>
-                <div>
-                    <img src="img/testimonial.jpg" class="testimonios-box-persona" alt="">
-                    <h5 class="testimonios-pesona-txt">
-                        Nombre y Apellido 
-                    </h5>
-                    <p class="textoNormal">
-                        Bussines Manager and SEO
-                    </p>
-                </div> 
-            </div> <!-- FIN TESTIMONIOS BOX -->
-       <!--     <div class="testimonios-box">
-                <i class="bi bi-quote quote"></i>
-                <div class="estrellasContenedor">
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                </div>
-                <p class="textoNormal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, sit aliquid. Quam sint ducimus nobis.
-                </p>
-                <div>
-                    <img src="img/testimonial.jpg" class="testimonios-box-persona" alt="">
-                    <h5 class="testimonios-pesona-txt">
-                        Nombre y Apellido 
-                    </h5>
-                    <p>
-                        Bussines Manager and SEO
-                    </p>
-                </div> 
+            <div class="textoNormal">Estamos muy contentos con el trabajo realizado por Max Design con  nuestra web y los servicios de mailing. Han superado ampliamente nuestras expectativas. Muy recomendable!
             </div>
-            <div class="testimonios-box">
-                <i class="bi bi-quote quote"></i>
-                <div class="estrellasContenedor">
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                </div>
-                <p class="textoNormal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, sit aliquid. Quam sint ducimus nobis.
-                </p>
-                <div>
-                    <img src="img/testimonial.jpg" class="testimonios-box-persona" alt="">
-                    <h5 class="testimonios-pesona-txt">
-                        Nombre y Apellido 
-                    </h5>
-                    <p>
-                        Bussines Manager and SEO
-                    </p>
-                </div> 
+            <div class="imagenPersona">
+                <img src="img/testimonial1.jpg" class="imgTestimonio" alt="">
+                <p class="nombrePersonaTestimonio"> Carolina Godoy </p>
+                <p class="textoChico">Emprende Business School</p>
             </div> 
-            <div class="testimonios-box">
-                <i class="bi bi-quote quote"></i>
-                <div class="estrellasContenedor">
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                </div>
-                <p class="textoNormal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, sit aliquid. Quam sint ducimus nobis.
-                </p>
-                <div>
-                    <img src="img/testimonial.jpg" class="testimonios-box-persona" alt="">
-                    <h5 class="testimonios-pesona-txt">
-                        Nombre y Apellido 
-                    </h5>
-                    <p>
-                        Bussines Manager and SEO
-                    </p>
-                </div> 
-            </div> 
-            <div class="testimonios-box">
-                <i class="bi bi-quote quote"></i>
-                <div class="estrellasContenedor">
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                </div>
-                <p class="textoNormal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, sit aliquid. Quam sint ducimus nobis.
-                </p>
-                <div>
-                    <img src="img/testimonial.jpg" class="testimonios-box-persona" alt="">
-                    <h5 class="testimonios-pesona-txt">
-                        Nombre y Apellido 
-                    </h5>
-                    <p>
-                        Bussines Manager and SEO
-                    </p>
-                </div> 
-            </div> 
-            <div class="testimonios-box">
-                <i class="bi bi-quote quote"></i>
-                <div class="estrellasContenedor">
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                </div>
-                <p class="textoNormal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, sit aliquid. Quam sint ducimus nobis.
-                </p>
-                <div>
-                    <img src="img/testimonial.jpg" class="testimonios-box-persona" alt="">
-                    <h5 class="testimonios-pesona-txt">
-                        Nombre y Apellido 
-                    </h5>
-                    <p>
-                        Bussines Manager and SEO
-                    </p>
-                </div> 
-            </div> 
-            <div class="testimonios-box">
-                <i class="bi bi-quote quote"></i>
-                <div class="estrellasContenedor">
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                    <i class="bi bi-star-fill star"></i>
-                </div>
-                <p class="textoNormal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, sit aliquid. Quam sint ducimus nobis.
-                </p>
-                <div>
-                    <img src="img/testimonial.jpg" class="testimonios-box-persona" alt="">
-                    <h5 class="testimonios-pesona-txt">
-                        Nombre y Apellido 
-                    </h5>
-                    <p>
-                        Bussines Manager and SEO
-                    </p>
-                </div> 
-            </div> --> <!-- FIN TESTIMONIOS BOX -->
-
         </div> 
-
-    </section>
+        <div class="testimonios-box">
+            <div class="margenAbajo">
+                <i class="bi bi-quote quote"></i>
+                <div class="estrellasContenedor">
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                </div>
+            </div>
+            <div class="textoNormal">Me ha proporcionado el servicio que esperaba, con un precio que dista mucho de lo standard, y con una calidad, que nada tiene que envidiar. El trato es muy profesional y muy eficaz. Lo recomiendo.
+            </div>
+            <div class="imagenPersona">
+                <img src="img/testimonial2.png" class="imgTestimonio" alt="">
+                <p class="nombrePersonaTestimonio"> Vanessa Muñoz </p>
+                <p class="textoChico">Sancor Seguros Marketing</p>
+            </div> 
+        </div> 
+        <div class="testimonios-box">
+            <div class="margenAbajo">
+                <i class="bi bi-quote quote"></i>
+                <div class="estrellasContenedor">
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                </div>
+            </div>
+            <div class="textoNormal">El diseño se ajusta totalmente a lo que buscamos. Una imagen atractiva y limpia en un diseño funcional. Todo con una atención personalizada gracias a la cual se han podido entender las necesidades de nuestra empresa. 
+            </div>
+            <div class="imagenPersona">
+                <img src="img/testimonial3.jpg" class="imgTestimonio" alt="">
+                <p class="nombrePersonaTestimonio"> Nombre y Apellido </p>
+                <p class="textoChico">Bussines Manager and SEO</p>
+            </div> 
+        </div> 
+    </div> 
+</section>
 
 <!-- *************************************************** -->
 <!--                      CLIENTES                       -->
@@ -440,104 +298,100 @@
 
 <a name="clientes"></a>
 
-    <section class="clientes">
-        <div class="clientesTitulos">
-            <p class="clientesTitulo txt-red">MEJORES CLIENTES</p>
-            <p class="clienteSubtitulo">Clientes Seleccionados</p>
-        </div>
-        <div class="contenedorClientes">
-            <div class="clientes-box">
-                <img src="img/clientes-logo1.png" alt=""  class="clientesImg">
-            </div>
-            <div class="clientes-box">
-                <img src="img/clientes-logo2.png" alt=""  class="clientesImg">
-            </div>
-            <div class="clientes-box">
-                <img src="img/clientes-logo3.png" alt=""  class="clientesImg">
-            </div>
-            <div class="clientes-box">
-                <img src="img/clientes-logo4.png" alt=""  class="clientesImg">
-            </div>
-            <div class="clientes-box">
-                <img src="img/clientes-logo5.png" alt=""  class="clientesImg">
-            </div>
-            <div class="clientes-box">
-                <img src="img/clientes-logo6.png" alt=""  class="clientesImg">
-            </div>
-            <div class="clientes-box">
-                <img src="img/clientes-logo7.png" alt=""  class="clientesImg">
-            </div>
-            <div class="clientes-box">
-                <img src="img/clientes-logo8.png" alt=""  class="clientesImg">
-            </div>
-        </div>
-    </section>
+<section class="clientes">
+<div class="clientesTitulos">
+    <p class="clientesTitulo txt-red">MEJORES CLIENTES</p>
+    <p class="clienteSubtitulo">Clientes Seleccionados</p>
+</div>
+<div class="contenedorClientes">
+    <div class="clientes-box">
+        <img src="img/clientes-logo1.png" alt=""  class="clientesImg">
+    </div>
+    <div class="clientes-box">
+        <img src="img/clientes-logo2.png" alt=""  class="clientesImg">
+    </div>
+    <div class="clientes-box">
+        <img src="img/clientes-logo3.png" alt=""  class="clientesImg">
+    </div>
+    <div class="clientes-box">
+        <img src="img/clientes-logo4.png" alt=""  class="clientesImg">
+    </div>
+    <div class="clientes-box">
+        <img src="img/clientes-logo5.png" alt=""  class="clientesImg">
+    </div>
+    <div class="clientes-box">
+        <img src="img/clientes-logo6.png" alt=""  class="clientesImg">
+    </div>
+    <div class="clientes-box">
+        <img src="img/clientes-logo7.png" alt=""  class="clientesImg">
+    </div>
+    <div class="clientes-box">
+        <img src="img/clientes-logo8.png" alt=""  class="clientesImg">
+    </div>
+</div>
+</section>
 
 <!-- *************************************************** -->
 <!--                        CONTACTO                     -->
 <!-- *************************************************** -->
 
 
-    <section class="contacto">
-        <a name="contacto"></a>
-        <div class="contactoContenedorTitulo">
-            <div class="contactoTitulos">
-                <p class="contactoTitulo">CONTACTO</p>
-                <p class="textogrande">Contactesé conmigo</p>
+<section class="contacto">
+<a name="contacto"></a>
+<div class="contactoContenedorTitulo">
+    <div class="contactoTitulos">
+        <p class="contactoTitulo">CONTACTO</p>
+        <p class="textogrande">Contactesé conmigo</p>
+    </div>
+</div>
+<div class="contactoContenedorTotal">
+    <div class="contenedorDatos">
+        <div class="contactoDatos1">
+            <div class="contactoIcon">
+                <i class="bi bi-map frm-icon"></i>
             </div>
+            <p class="contactoTexto">Tejeiro Martínez <span class="numeros">558</span></p>
+            <p class="contactoTexto">Paraná - E.R. - Argentina</p>
         </div>
-        <div class="contactoContenedorTotal">
-            <div class="contenedorDatos">
-                <div class="contactoDatos1">
-                    <div class="contactoIcon">
-                        <i class="bi bi-map frm-icon"></i>
-                    </div>
-                    <p class="contactoTexto">Tejeiro Martínez <span class="numeros">558</span></p>
-                    <p class="contactoTexto">Paraná - E.R. - Argentina</p>
-                </div>
-                <div class="contactoDatos">
-                    <div class="contactoIcon">
-                        <i class="bi bi-telephone  frm-icon"></i>
-                    </div>
-                    <p class="contactoTexto">+<span class="numeros">54 9 3435126769</span></p>
-                </div>
-                <div class="contactoDatos">
-                    <div class="contactoIcon">
-                        <i class="bi bi-envelope frm-icon"></i>
-                    </div>
-                    <p class="contactoTexto"> webdesign@maximodesigner.com </p>
-                </div>
-                <div class="contactoDatosFinal">
-                    <div class="contactoIcon">
-                        <i class="bi bi-check2-circle frm-icon"></i>
-                    </div>
-                    <p class="contactoTexto">Freelance Disponible</p>
-                </div>
+        <div class="contactoDatos">
+            <div class="contactoIcon">
+                <i class="bi bi-telephone  frm-icon"></i>
             </div>
-            <div class="contenedorForm">
-                <form action="https://formspree.io/f/mvonkepq" method="post">
-                    <div class="contenedorGrupoCampos">
-                        <input type="text"   name="nombre" required  size="40"  placeholder="* Ingrese su nombre y apellido" class="nombre">
-                        <input type="text"   name="telefono" size="40"  placeholder="Ingrese su teléfono" class="telefono">
-                        <input type="email"  name="email"  required  size="40"  placeholder="* Ingrese su correo" class="email">
-                        <input type="text"   name="asunto" required  size="40"  placeholder="* Ingrese asunto" class="asunto">
-                        <textarea name="comentario" cols="30" required rows="15" placeholder="* Ingrese su mensaje" class="comentario"></textarea>
-                    </div>
-                    <div class="contactoEnviar">
-                        <button type="submit" class="btn btn-enviar">
-                            Enviar Mensaje <i class="bi bi-send"></i>
-                        </button>
-                    </div>
-                </form>
-            </div>
+            <p class="contactoTexto">+<span class="numeros">54 9 3435126769</span></p>
         </div>
-    </section>
+        <div class="contactoDatos">
+            <div class="contactoIcon">
+                <i class="bi bi-envelope frm-icon"></i>
+            </div>
+            <p class="contactoTexto"> webdesign@maximodesigner.com </p>
+        </div>
+        <div class="contactoDatosFinal">
+            <div class="contactoIcon">
+                <i class="bi bi-check2-circle frm-icon"></i>
+            </div>
+            <p class="contactoTexto">Freelance Disponible</p>
+        </div>
+    </div>
+    <div class="contenedorForm">
+        <form action="https://formspree.io/f/mvonkepq" method="post">
+            <div class="contenedorGrupoCampos">
+                <input type="text"   name="nombre" required  size="40"  placeholder="* Ingrese su nombre y apellido" class="nombre">
+                <input type="text"   name="telefono" size="40"  placeholder="Ingrese su teléfono" class="telefono">
+                <input type="email"  name="email"  required  size="40"  placeholder="* Ingrese su correo" class="email">
+                <input type="text"   name="asunto" required  size="40"  placeholder="* Ingrese asunto" class="asunto">
+                <textarea name="comentario" cols="30" required rows="15" placeholder="* Ingrese su mensaje" class="comentario"></textarea>
+            </div>
+            <div class="contactoEnviar">
+                <button type="submit" class="btn btn-enviar">
+                    Enviar Mensaje <i class="bi bi-send"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+</section>
 
-<!-- *************************************************** -->
-<!--                         FOOTER                      -->
-<!-- *************************************************** -->
-
-    <footer class="footer">
+ <footer class="footer">
         <div class="footerLoguito">
             <a href="#mainheader">
                 <img src="img/logo-sitio-chico.png" alt="">
@@ -553,9 +407,8 @@
             <i class="bi bi-youtube footerIcon"></i>
             <i class="bi bi-instagram footerIcon"></i>
             <i class="bi bi-dribbble footerIcon"></i>
-            <!-- FALTA UNO -->
         </div>
         <p class="textoCopyright">Max Design @ <span class="numeros">2023</span> Todos los Derechos Reservados</p>
-    </footer>
+    </footer> 
 </body>
 </html>
