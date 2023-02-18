@@ -2,7 +2,6 @@
 /*                  GLOBALES                */
 /********************************************/
 
-
 @font-face {
     font-family: 'Altone';
     src: url('../fonts/AltoneTrial-Regular.ttf') format('truetype');
@@ -21,17 +20,19 @@
 	margin: 0;
  	box-sizing: border-box; 
 }
-
+html {
+	scroll-behavior: smooth;
+}
 body {
 	background-image: url('../img/sol.jpg');
 	background-repeat: no-repeat;
 	font-family: 'Altone', sans-serif;
 	color: #fff;
     background-color: #000;
-	width: 90%;
+	max-width: 94%;
 	margin: 0 auto;
 	margin: 0 30px 0 30px;
-
+	scroll-behavior: smooth;
 }
 .titulosRojos {
 	color: #f70838;
@@ -43,18 +44,15 @@ body {
 }
 .divisor {
 	background-color: #282828; 
-	height: 50px;
+	height: 90px;
 }
-
 a {
 	text-decoration: none;
-	color: #fff;
+		color: #fff;
 }
-.bi-list {
+/* OCULTAMOS BOTON HAMBURGUESA */
+.botonMenu {
     display: none;
-}
-body {
-    margin: 0 auto;
 }
 h1 {
 	font-size: 2.5rem;
@@ -78,16 +76,19 @@ a {
 /*                 NAVBAR                  */
 /*******************************************/
 .navbar {
+	display: flex;
+    justify-content: space-between;
+	padding: 30px 30px 0 30px;
+	max-width: 94%;
 	color: #fff;
 	background-color: #282828;
 	border-radius: 20px 20px 0 0;
-	display: flex;
-	width: 90%;
-    justify-content: space-between;
-	padding: 30px 30px 0 30px;
 	background-color: #282828;
 	position: fixed;
 	z-index: 100;
+	padding-bottom: 5px;
+	/* border-bottom: 5px; */
+	border-bottom: #202020 1px solid;	
 }
 .logoyTexto {
 	display: flex;
@@ -135,11 +136,25 @@ a {
 	background: rgba(255, 255, 255, 0.3);
 	transition: all 0.3s ease;
 }
-
 .btnDownload:hover {
 	background-color:  #a50135;	
 	transition: all 1s ease;
 }
+
+.botonMenu {
+  cursor: pointer;	
+}
+
+
+.icon-cuadro:hover:after {
+	background: rgba(255, 255, 255, 0.3);
+	transition: all 0.2s ease;
+}
+.icon-cuadro:hover {
+	background-color:  #a50135;	
+	transition: all 0.5s ease;
+}
+
 
 .colorTexto{
 	color: #c8d8e8;
@@ -151,7 +166,7 @@ a {
 
 .contenedorHero {
     display: flex;
-	padding: 100px 30px 30px 30px;
+	padding: 170px 30px 30px 30px;
 	background-color: #282828; 
 	border-bottom: #202020 2px solid;	
 }
@@ -186,15 +201,11 @@ a {
 }
 .marginR20 {
 	padding-right: 10px;
+	/* text-align:justify; */
 }
 .textoNormal {
 	font-size: 0.8em;
 	line-height: 22px;
-	color: #adb2ba;
-}
-.textoChico {
-	font-size: 0.6em;
-	line-height: 18px;
 	color: #adb2ba;
 }
 .sigueme {
@@ -324,7 +335,16 @@ a {
 	border-radius: 3%; 
 	margin-bottom: 15px;
 }
-
+.work-img:hover {
+	filter:blur(3px);
+}
+.textoImagen {
+	/* position: absolute; */
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+}
 .portfolioBtnDark {
 	align-items: center;
 	display: flex;
@@ -495,9 +515,12 @@ a {
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
-
+.textoChico {
+	font-size: 0.6em;
+	line-height: 18px;
+	color: #adb2ba;
+}
 .quote {
-/*	transform: rotate(180deg); */
     color: #f70838;  
 	rotate: 180deg;
 }
@@ -760,4 +783,59 @@ margin-bottom: 10px;
 	padding-top: 10px;
 	font-size: 9px;
 	padding-bottom: 50px;
+}
+
+@media (max-width: 835px) {
+
+	.navbar  {
+		/* display: none; */
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.showcaseImg {
+		display: none;
+	}
+	.navbar ul {
+		margin-top: 5px;
+	}
+	.showcaseRowTitle {
+		max-width: 90%;
+	}
+	.contenedorHero{
+		padding-top: 200px;
+	} 
+	.seoculta {
+		display: hidden; 
+	}
+}
+
+@media (max-width: 597px) {
+	.botonMenu {
+		position: absolute;
+		display: block;
+		float: right;
+		top: 20%;
+		left: 5%;
+		text-align: right;
+	}
+	body {
+		width: 80%;
+	}
+    .navbar ul {
+		display: none;
+	}
+	.navbar {
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.seoculta {
+		display: hidden; 
+}
+body {
+	width: 100%;
+}
 }
