@@ -15,8 +15,9 @@
  <a name="mainheader"></a>
 
 <!-- *************************************************** -->
-<!--                      MAIN HEADER                    -->
+<!--                MAIN HEADER / NAVBAR                 -->
 <!-- *************************************************** -->
+
 <header>
     <nav class="navbar">
         <div class="logoyTexto">
@@ -26,6 +27,7 @@
             </div>
         </div>
         <ul>
+<!-- SE SACÓ LA OPCIÓN CLIENTES PORQUE EL MENÚ NO ENTRABA -->            
             <li><a href="#mainheader"  class="colorTexto">HOME</a>
             <li><a href="#servicios"   class="colorTexto">SERVICIOS</a>
             <li><a href="#portfolio"   class="colorTexto">PORTFOLIO</a>
@@ -33,12 +35,14 @@
             <li><a href="#testimonios" class="colorTexto">TESTIMONIOS</a>
             <li><a href="#contacto"    class="colorTexto">CONTACTO</a>
         </ul>
-        <button class="btnDownload"><a href="./misc/curriculumSergioBarreira3435126769.pdf" target="_blank" class="link">DESCARGAR CV</a></button>
+        <button class="btnDownload">
+            <a href="./misc/curriculumSergioBarreira3435126769.pdf" target="_blank" class="link">DESCARGAR CV</a>
+        </button>
         <button class="botonMenu"><i class="bi bi-list"></i></button>
     </nav>
 </header>
+
 <div class="contenedorHero">
-  
     <div class="showcaseRowTitle">
         <p class="hello">Hola, <span class="hello2">soy</span></p>
         <p class="texto-grande">Max Barreira</p>
@@ -47,13 +51,17 @@
         <p class="sigueme">SIGUEME EN </p>
         <div class="boximagenes">
             <a href="https://www.facebook.com" target="_blank">
-                <i class="bi bi-facebook icon-cuadro"></i></a>
+                <i class="bi bi-facebook icon-cuadro"></i>
+            </a>
             <a href="https://www.twitter.com" target="_blank">
-                <i class="bi bi-twitter icon-cuadro "></i></a>
+                <i class="bi bi-twitter icon-cuadro "></i>
+            </a>
             <a href="https://www.linkedin.com" target="_blank">
-                <i class="bi bi-linkedin icon-cuadro"></i></a>
+                <i class="bi bi-linkedin icon-cuadro"></i>
+            </a>
             <a href="https://www.youtube.com" target="_blank">
-                <i class="bi bi-youtube icon-cuadro"></i></a>
+                <i class="bi bi-youtube icon-cuadro"></i>
+            </a>
         </div>
         <div class="boxpuntajes">
             <div class="puntajes">
@@ -77,7 +85,7 @@
 <a name="servicios"></a>
 
 <div class="divisor"></div>
-
+<div class="divisor divisorOculto"></div>
 <!-- *************************************************** -->
 <!--                       SERVICIOS                    -->
 <!-- *************************************************** -->
@@ -124,7 +132,7 @@
 <a name="portfolio"></a>
 
 <div class="divisor"></div>
-
+<div class="divisor divisorOculto"></div>
 <!-- *************************************************** -->
 <!--             ULTIMOS DISEÑOS PORTFOLIO               -->
 <!-- *************************************************** -->
@@ -163,7 +171,7 @@
 <a name="experiencia"></a>
 
 <div class="divisor"></div>
-
+<div class="divisor divisorOculto"></div>
 <!-- *************************************************** -->
 <!--                       EXPERIENCIA                   -->
 <!-- *************************************************** -->
@@ -235,27 +243,19 @@
 <a name="testimonios"></a>   
 
 <div class="divisor"></div>
-
+<div class="divisor divisorOculto"></div>
 <!-- *************************************************** -->
 <!--                       TESTIMONIOS                   -->
 <!-- *************************************************** -->
 
  <section class="testimonios">
-     <div class="testimoniosTitulo">
-        <!-- <p class="testimoniosTituloReal titulosRojos">TESTIMONIOS</p> -->
-        <p class="titulosRojos">TESTIMONIOS</p>
-        <div class="botonera">
-            <p class="testimoniosSubtitulo">Los clientes dicen</p> 
-            <!-- <button class="anterior"  onclick="anterior()"> <i class="bi bi-arrow-left-short" flecha></i></button>
-            <button class="siguiente" onclick="siguiente()"><i class="bi bi-arrow-right-short flecha"></i></button> -->
-            <div id="valor"></div>
-            <div id="valoractual"></div>
-        </div>
-    </div>   
+    <div class="titulosRojos">TESTIMONIOS</div>
+    <p class="testimoniosSubtitulo">Los clientes dicen</p> 
     <div class="testimoniosContenedor">
         <div class="testimonios-box">
             <div class="margenAbajo">
-                <i class="bi bi-quote quote"></i>
+                <i class="bi bi-chat-right quote"></i>
+                <i class="bi bi-chat-right quote"></i>
                 <div class="estrellasContenedor">
                     <i class="bi bi-star-fill star"></i>
                     <i class="bi bi-star-fill star"></i>
@@ -264,7 +264,7 @@
                     <i class="bi bi-star-fill star"></i>
                 </div>
             </div>
-            <div class="textoNormal">Estamos muy contentos con el trabajo realizado por Max Design con  nuestra web y los servicios de mailing. Han superado ampliamente nuestras expectativas. Muy recomendable!
+            <div class="textoNormal">Estamos muy contentos con el trabajo realizado por Max Design con nuestra web y los servicios de mailing. Han superado ampliamente nuestras expectativas estamos creciendo a pasos agigantados.
             </div>
             <div class="imagenPersona">
                 <img src="img/testimonial1.jpg" class="imgTestimonio" alt="">
@@ -272,9 +272,10 @@
                 <p class="textoChico">Emprende Business School</p>
             </div> 
         </div> 
-        <div class="testimonios-box">
+        <div class="testimonios-box ocultame">
             <div class="margenAbajo">
-                <i class="bi bi-quote quote"></i>
+                <i class="bi bi-chat-right quote"></i>
+                <i class="bi bi-chat-right quote"></i>
                 <div class="estrellasContenedor">
                     <i class="bi bi-star-fill star"></i>
                     <i class="bi bi-star-fill star"></i>
@@ -293,7 +294,8 @@
         </div> 
         <div class="testimonios-box seoculta">
             <div class="margenAbajo">
-                <i class="bi bi-quote quote"></i>
+                <i class="bi bi-chat-right quote"></i>
+                <i class="bi bi-chat-right quote"></i>
                 <div class="estrellasContenedor">
                     <i class="bi bi-star-fill star"></i>
                     <i class="bi bi-star-fill star"></i>
@@ -316,7 +318,7 @@
 <a name="clientes"></a>
 
 <div class="divisor"></div>
-
+<div class="divisor divisorOculto"></div>
 <!-- *************************************************** -->
 <!--                      CLIENTES                       -->
 <!-- *************************************************** -->
@@ -329,28 +331,44 @@
     </div>
     <div class="contenedorClientes">
         <div class="clientes-box">
-            <img src="img/clientes-logo1.png" alt=""  class="clientesImg icon-cuadro">
+            <a href="https://www.ciudaddetotoras.gob.ar" target="_blank">
+                <img src="img/clientes-logo1.png" alt="" class="clientesImg icon-cuadro">
+            </a>
         </div>
         <div class="clientes-box">
-            <img src="img/clientes-logo2.png" alt=""  class="clientesImg icon-cuadro">
+            <a href="https://www.facebook.com/Dasein.Estudio.DG/posts/2964256280269020/" target="_blank">
+                <img src="img/clientes-logo2.png" alt=""  class="clientesImg icon-cuadro">
+            </a>
         </div>
         <div class="clientes-box">
-            <img src="img/clientes-logo3.png" alt=""  class="clientesImg icon-cuadro">
+            <a href="https://www.facebook.com/profile.php?id=100069382821876" target="_blank">
+                <img src="img/clientes-logo3.png" alt=""  class="clientesImg icon-cuadro">
+            </a>
         </div>
         <div class="clientes-box">
-            <img src="img/clientes-logo4.png" alt=""  class="clientesImg icon-cuadro">
+            <a href="https://rinaudoehijos.com.ar/" target="_blank">
+                <img src="img/clientes-logo4.png" alt=""  class="clientesImg icon-cuadro">
+            </a>
         </div>
         <div class="clientes-box">
-            <img src="img/clientes-logo5.png" alt=""  class="clientesImg icon-cuadro">
+            <a href="https://www.odaia.ai/" target="_blank">
+                <img src="img/clientes-logo5.png" alt=""  class="clientesImg icon-cuadro">
+            </a>
         </div>
         <div class="clientes-box">
-            <img src="img/clientes-logo6.png" alt=""  class="clientesImg icon-cuadro">
+            <a href="https://www.energia-argentina.com.ar/" target="_blank">
+                <img src="img/clientes-logo6.png" alt=""  class="clientesImg icon-cuadro">
+            </a>
         </div>
         <div class="clientes-box">
-            <img src="img/clientes-logo7.png" alt=""  class="clientesImg icon-cuadro">
+            <a href="https://www.chicagoconstrucciones.com.ar/" target="_blank">
+                <img src="img/clientes-logo7.png" alt=""  class="clientesImg icon-cuadro">
+            </a>
         </div>
         <div class="clientes-box">
-            <img src="img/clientes-logo8.png" alt=""  class="clientesImg icon-cuadro">
+            <a href="https://agropremiun.com.ar/" target="_blank">
+                <img src="img/clientes-logo8.png" alt=""  class="clientesImg icon-cuadro">
+            </a>
         </div>
     </div>
 </section>
@@ -358,7 +376,7 @@
 <a name="contacto"></a>
 
 <div class="divisor"></div>
-
+<div class="divisor divisorOculto"></div>
 <!-- *************************************************** -->
 <!--                        CONTACTO                     -->
 <!-- *************************************************** -->
@@ -372,30 +390,27 @@
     </div>
     
     <div class="contactoContenedorTotal">
+    <!----------------------------- ZONA IZQUIERDA DEL FORM ---------------------->
         <div class="contenedorDatos">
             <div class="contactoDatos">
-
                 <div class="contactoIcon">
                     <i class="bi bi-map frm-icon"></i>
                 </div>
                 <p class="contactoTexto">Tejeiro Martínez <span class="numeros">558</span>
                 - E.R. - Argentina</p>
             </div>
-
             <div class="contactoDatos">
                 <div class="contactoIcon">
                     <i class="bi bi-telephone  frm-icon"></i>
                 </div>
                 <p class="contactoTexto">+<span class="numeros">54 9 3435126769</span></p>
             </div>
-
             <div class="contactoDatos">
                 <div class="contactoIcon">
                     <i class="bi bi-envelope frm-icon"></i>
                 </div>
                 <p class="contactoTexto"> webdesign@maximodesigner.com </p>
             </div>
-
             <div class="contactoDatosFinal">
                 <div class="contactoIcon">
                     <i class="bi bi-check2-circle frm-icon"></i>
@@ -403,18 +418,19 @@
                 <p class="contactoTexto">Freelance Disponible</p>
             </div>
         </div>
-        <div class="contenedorForm">
+    <!----------------------------- ZONA DERECHA DEL FORM ---------------------->
+    <div class="contenedorForm">
             <form action="https://formspree.io/f/mvonkepq" method="post">
                 <div class="contenedorGrupoCampos">
                     <input type="text"   name="nombre" required  size="40"  placeholder="* Ingrese su nombre y apellido" class="nombre">
                     <input type="text"   name="telefono" size="40"  placeholder="Ingrese su teléfono" class="telefono">
                     <input type="email"  name="email"  required  size="40"  placeholder="* Ingrese su correo" class="email">
                     <input type="text"   name="asunto" required  size="40"  placeholder="* Ingrese asunto" class="asunto">
-                    <textarea name="comentario" cols="30" required rows="15" placeholder="* Ingrese su mensaje" class="comentario"></textarea>
+                    <textarea name="comentario" cols="40" required rows="18" placeholder="* Ingrese su mensaje" class="comentario"></textarea>
                 </div>
                 <div class="contactoEnviar ">
-                    <button type="submit" class="btn btn-enviar  icon-cuadro">
-                        Enviar Mensaje <i class="bi bi-send"></i>
+                    <button type="submit" class="btn btn-enviar  icon-cuadro ">
+                       <span class="fuenteEnviar"> Enviar Mensaje</span> <i class="bi bi-send"></i>
                     </button>
                 </div>
             </form>
@@ -426,7 +442,6 @@
 <!-- *************************************************** -->
 <!--                        FOOTER                       -->
 <!-- *************************************************** -->
-
 <footer class="footer">
     <div  class="logoyTexto">
         <img src="img/logo-sitio-chico.png" alt="MD ">
